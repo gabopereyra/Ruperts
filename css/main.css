@@ -1,0 +1,76 @@
+:root {
+  --colorPrincipal: rgb(212, 192, 182);
+  --colorSecundario: rgb(134, 88, 64);
+  --colorTerciario: #5a13f2;
+  --colorCuarto: #2745f2;
+  --colorQuinto: #138af2;
+  --colorSexto: #ffbeff;
+  --colorSeptimo: #d3fae8;
+  --titulo: "Amatic SC", cursive;
+  --fuentePrincipal: "Open Sans Condensed", sans-serif;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-weight: lighter;
+
+  color: var(--colorSecundario);
+}
+
+.navbar {
+  font-family: var(--titulo);
+  font-size: 1.5rem;
+  background-color: var(--colorPrincipal) !important;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-brand img {
+  height: 3rem;
+  width: 8rem;
+  margin-left: -3rem;
+}
+a.nav-link {
+  font-weight: bold;
+}
+@media (min-width: 480px) {
+  .navbar-brand img {
+    height: 3rem;
+    width: 15rem;
+    margin-left: -4rem;
+  }
+}
+
+.carousel-item h1 {
+  font-family: var(--titulo);
+  font-size: 3.5rem !important;
+}
+
+footer {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (min-width: 760px) {
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+}
+
+
+footer a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--colorSecundario);
+}
+
+.last {
+    margin: 5rem auto 1.2rem auto !important;
+}
+
