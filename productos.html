@@ -34,7 +34,7 @@
 <link href="css/main.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"> 
-
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"> <!--FANCYBOX-->
 <script src="https://kit.fontawesome.com/b22b53071d.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -86,15 +86,22 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
+                    <a href="img/0-min.jpg" data-fancybox="gallery" data-caption="Caption #1">
                   <div class="carousel-item productos pequeno active">
                     <img src="img/0-min.jpg" class="d-block w-100" alt="...">
                   </div>
+                  </a>
+                  <a href="img/00-min.jpg" data-fancybox="gallery" data-caption="Caption #1">
                   <div class="carousel-item productos pequeno">
                     <img src="img/00-min.jpg" class="d-block w-100" alt="...">
                   </div>
+                </a>
+                  <a href="img/1-min.jpg" data-fancybox="gallery" data-caption="Caption #1">
                   <div class="carousel-item productos pequeno">
                     <img src="img/1-min.jpg" class="d-block w-100" alt="...">
                   </div>
+                </a>
+
                 </div>
               </div> <!--Fin carousel-->
 
@@ -260,6 +267,8 @@
   </footer>
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-      <script src="js/bootstrap.bundle.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 </html>
