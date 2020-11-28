@@ -96,8 +96,40 @@ footer a {
 
 
 .pequeno img{
-
   height: 100%;
   object-fit: cover;
   object-position: center center;
+}
+
+/* Pagina "como comprar" */
+.marketing h2{
+  margin-top: 3rem !important;
+  font-size: 1.7rem;
+}
+
+.parrafos, ul{
+  font-size: 1.1rem;
+}
+
+.strong{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 480px){
+  .marketing h2{
+    font-size: 2.4rem;
+  }
+  
+  .parrafos, ul{
+    font-size: 1.3rem;
+  }
+  
+  .strong{
+    font-size: 1.2rem;
+  } 
+}
+
+.paginaComprar{
+  margin-top: 1rem !important;
 }
