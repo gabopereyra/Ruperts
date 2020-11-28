@@ -82,10 +82,22 @@ footer a {
   text-align: center ;
 }
 
-.carousel-item {
-  height: 20rem;
+.productos_carousel{
+  margin-bottom: 0 !important;
 }
 
-.carousel {
-  margin-bottom: 0;
+.productos {
+  height: 20rem !important;
+}
+
+.card-title{
+  text-align: center;
+}
+
+
+.pequeno img{
+
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
