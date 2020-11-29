@@ -109,11 +109,12 @@ footer a {
 
 .parrafos, ul{
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .strong{
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 480px){
