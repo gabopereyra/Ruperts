@@ -103,7 +103,8 @@ footer a {
 
 /* Pagina "como comprar" */
 .marketing h2{
-  margin-top: 3rem !important;
+  margin-top: 3.1rem !important;
+  margin-bottom: 1.2rem !important;
   font-size: 1.7rem;
 }
 
